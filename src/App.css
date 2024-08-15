@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;600&display=swap");
+
+body {
+  font-family: "Proxima Nova", Arial, sans-serif;
+  background-color: #232931;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  padding-top: 40px;
+}
+
+h1 {
+  color: #4ecca3;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 15px;
+  width: 100%;
+  max-width: 500px;
+  border: 2px solid #393e46;
+  border-radius: 15px;
+  background-color: #eeeeee;
+  color: #232931;
+  margin: 10px auto;
+  text-align: center;
+  display: block;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+input[type="text"]::placeholder {
+  color: #4ecca3;
+  opacity: 1;
+}
+
+button {
+  padding: 15px;
+  font-size: 1.2rem;
+  border: 2px solid #393e46;
+  border-radius: 20px;
+  background-color: #232931;
+  color: #ffffff;
+  margin: 20px auto;
+  cursor: pointer;
+  display: block;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  outline: none;
+}
+
+button:hover {
+  background-color: #eeeeee;
+  color: #232931; /* Ensures the text remains visible */
+  transform: scale(1.05);
+}
